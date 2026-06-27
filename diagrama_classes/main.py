@@ -14,7 +14,7 @@ lab = Laboratorio(
 r = Reserva(
     data_hora=datetime.now(),
     motivo="Aula de Programação",
-    status="EM USO"
+    status="APROVADA"
 )
 
 # Associando a reserva ao laboratório
