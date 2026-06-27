@@ -64,7 +64,7 @@ class Laboratorio:
             print("Não foi possível realizar a reserva. A reserva foi rejeitada.")
             return False
 
-        elif status == "EM_USO":
+        elif status == "EM USO":
             print("Não foi possível realizar a reserva. O laboratório já está em uso.")
             return False
 
