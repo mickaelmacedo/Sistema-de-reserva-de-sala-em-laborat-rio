@@ -9,20 +9,5 @@ O projeto consiste em um sistema feito para professores e monitores agendarem ho
 
 ---
 
-## Requisitos Funcionais e Não Funcionais gerais 📕
-
-Os requisitos abaixo são gerais, baseado na visão dos colaboradores sobre as demandas dos laboratórios e nas boas praticas inerentes a todo software. Serão adicionados requisitos específicos após as entrevistas com os stackholders, bem como alterações nos requisitos gerais dependendo da demanda dos stackholders.
-
-### ➡️ Requisitos funcionais:
-
-- O sistema deve permitir cadastro de usuário com email e senha
-- O sistema deve permitir ao usuário administrador barrar horarios e laboratórios caso haja algum problema inesperado neles
-- O sistema deve permitir que o professor agende ou cancele horários em determinado laboratório, entretando, os monitores poderão apenas agendar, não sendo possivel cancelar
-- O sistema deve limitar o professor/monitor a agendar apenas um laboratório e um horário, não sendo possivel agendar mais de um
-
-### ➡️ Requisitos não funcionais:
-
-- O sistema deve apresentar uma interface simples e intuitiva
-
-# Como o projeto será executado?
+## Como o projeto será executado?
 O projeto será executado através do VSCode, utilizando a linguagem Python, como base para a implementação dos códigos. As relações entre as classes serão feitas, de uma forma que o sistema possa funcionar com êxito
