@@ -4,7 +4,7 @@ O projeto consiste em um sistema feito para professores e monitores solicitarem 
 
 ## 📄 Documentação completa
 
-Descrição do problema, requisitos funcionais e não funcionais, user stories, priorização (MVP/desejável/futuro) e glossário do domínio estão detalhados em: docs/documentacao.md
+Descrição do problema, requisitos funcionais e não funcionais, user stories, priorização (MVP/desejável/futuro) e glossário do domínio estão detalhados em: [`documentacao.md`](./docs/documentacao.md)
 
 ## 🛠️ Ferramentas para gestão do processo de desenvolvimento 
 
