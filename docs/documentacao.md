@@ -127,14 +127,14 @@ Atualmente, o agendamento dos laboratórios do DCET é feito de forma manual: os
 - RF07 — Registro de colegiado e motivo na solicitação
 - RF08 — Aprovação/rejeição de solicitações pelo administrador
 - RF10 — Agenda pública em formato de calendário
-- RNF01, RNF02, RNF05 (usabilidade básica, integridade de dados, segurança de senha)
+- RNF01, RNF02 e RNF05 (usabilidade básica, integridade de dados, segurança de senha)
 
 ### 🟡 Desejáveis (segunda iteração)
 - RF04 — Cancelamento de agendamento (professor)
 - RF09 — Bloqueio de horários/laboratórios pelo administrador
 - RF11 — Resolução automática de conflitos por prioridade
 - RF13 — Registro de solicitações externas via memorando
-- RNF03, RNF04 (performance e manutenibilidade)
+- RNF03 e RNF04 (performance e manutenibilidade)
 
 ### 🔵 Futuros (versões posteriores)
 - RF12 — Check-in de uso do laboratório
