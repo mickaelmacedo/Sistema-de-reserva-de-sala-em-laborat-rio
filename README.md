@@ -25,4 +25,4 @@ Os requisitos abaixo são gerais, baseado na visão dos colaboradores sobre as d
 - O sistema deve apresentar uma interface simples e intuitiva
 
 # Como o projeto será executado?
-O projeto será executado através do VSCode, utilizando a linguagem Python, como base para a implementação dos códigos. As relações entre as classes serão feitas, de uma forma que o sistema possa funcionar com êAxito
+O projeto será executado através do VSCode, utilizando a linguagem Python, como base para a implementação dos códigos. As relações entre as classes serão feitas, de uma forma que o sistema possa funcionar com êxito
