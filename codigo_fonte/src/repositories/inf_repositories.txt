@@ -1,0 +1,1 @@
+# Inclui as classes dos repositórios
