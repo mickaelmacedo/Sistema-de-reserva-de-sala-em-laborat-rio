@@ -70,6 +70,9 @@ class ReservaService:
     def listar_solicitacoes_pendentes(self) -> list[Reserva]:
         return self.repository.listar_por_status("pendente")
 
+    def listar_todas(self) -> list[Reserva]:
+        return self.repository.listar_todos()
+
     def _buscar_pendente(self, reserva_id: int) -> Reserva:
         reserva = self.repository.buscar_por_id(reserva_id)
         if not reserva:

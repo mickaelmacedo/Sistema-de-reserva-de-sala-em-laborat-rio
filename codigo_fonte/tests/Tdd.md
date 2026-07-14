@@ -17,9 +17,7 @@ tests/test_reserva_service.py
 ```
 
 ```python
-def test_listar_todas_as_reservas(service, professor, laboratorio):
-
-    from datetime import datetime, timedelta
+def test_listar_todas_reservas(service, professor, laboratorio):
 
     inicio = datetime.now() + timedelta(days=1)
     fim = inicio + timedelta(hours=2)
@@ -37,3 +35,18 @@ def test_listar_todas_as_reservas(service, professor, laboratorio):
 ```
 
 Neste momento o teste **falhou**, pois o método `listar_todas()` ainda não existia na classe `ReservaService`.
+
+
+Passo 2 – Implementação (GREEN)
+
+Foi implementado o método no ReservaService.
+
+def listar_todas(self) -> list[Reserva]:
+    return self.repository.listar_todos()
+
+Também foi adicionada a operação correspondente no ReservaRepository.
+
+def listar_todos(self):
+    return self.reservas
+
+Após essa implementação, o teste passou com sucesso.

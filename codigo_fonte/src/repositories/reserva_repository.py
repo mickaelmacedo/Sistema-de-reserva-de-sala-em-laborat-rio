@@ -58,6 +58,7 @@ class ReservaRepository(BaseRepository):
         dados = self._carregar_dados()
         return [self._para_objeto(item) for item in dados]
 
+
     def _para_dict(self, reserva: Reserva) -> dict:
         return {
             "id": reserva.id,

@@ -211,3 +211,19 @@ class TestListarPendentes:
 
         assert len(pendentes) == 1
         assert pendentes[0].status == "pendente"
+
+def test_listar_todas_reservas(service, professor, laboratorio):
+
+    inicio = datetime.now() + timedelta(days=1)
+    fim = inicio + timedelta(hours=2)
+
+    service.solicitar_agendamento(
+        professor,
+        laboratorio,
+        inicio,
+        fim
+    )
+
+    reservas = service.listar_todas()
+
+    assert len(reservas) == 1
