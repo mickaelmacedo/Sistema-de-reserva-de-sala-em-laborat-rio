@@ -19,7 +19,7 @@ class ReservaService:
 
         nova_reserva = Reserva(
             id=self.repository.proximo_id(),
-            professor=professor,
+            usuario=professor,
             laboratorio=laboratorio,
             data_inicio=inicio,
             data_fim=fim,

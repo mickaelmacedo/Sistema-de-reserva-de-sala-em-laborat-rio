@@ -61,7 +61,7 @@ class ReservaRepository(BaseRepository):
     def _para_dict(self, reserva: Reserva) -> dict:
         return {
             "id": reserva.id,
-            "professor_id": reserva.professor.id,
+            "usuario_id": reserva.usuario.id,
             "laboratorio_id": reserva.laboratorio.id,
             "data_inicio": reserva.data_inicio.strftime(FORMATO_DATA),
             "data_fim": reserva.data_fim.strftime(FORMATO_DATA),
@@ -72,11 +72,11 @@ class ReservaRepository(BaseRepository):
         }
 
     def _para_objeto(self, dado: dict) -> Reserva:
-        professor = self.usuario_repository.buscar_por_id(dado["professor_id"])
+        usuario = self.usuario_repository.buscar_por_id(dado["usuario_id"])
         laboratorio = self.laboratorio_repository.buscar_por_id(dado["laboratorio_id"])
 
-        if professor is None:
-            raise ValueError(f"Professor com id {dado['professor_id']} referenciado na reserva não existe mais.")
+        if usuario is None:
+            raise ValueError(f"Usuário com id {dado['usuario_id']} referenciado na reserva não existe mais.")
         if laboratorio is None:
             raise ValueError(f"Laboratório com id {dado['laboratorio_id']} referenciado na reserva não existe mais.")
 
@@ -86,7 +86,7 @@ class ReservaRepository(BaseRepository):
 
         return Reserva(
             id=dado["id"],
-            professor=professor,
+            usuario=usuario,
             laboratorio=laboratorio,
             data_inicio=datetime.strptime(dado["data_inicio"], FORMATO_DATA),
             data_fim=datetime.strptime(dado["data_fim"], FORMATO_DATA),

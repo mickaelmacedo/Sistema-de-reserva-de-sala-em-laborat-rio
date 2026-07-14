@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": 1,
+    "nome": "Lab0",
+    "capacidade": 50,
+    "recursos": [
+      "nada"
+    ]
+  }
+]

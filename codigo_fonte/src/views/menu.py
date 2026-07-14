@@ -239,6 +239,6 @@ class Menu:
         inicio = reserva.data_inicio.strftime(FORMATO_DATA_HORA)
         fim = reserva.data_fim.strftime(FORMATO_DATA_HORA)
         print(
-            f"[{reserva.id}] {reserva.laboratorio.nome} | prof. {reserva.professor.nome} | "
+            f"[{reserva.id}] {reserva.laboratorio.nome} | prof. {reserva.usuario.nome} | "
             f"{inicio} - {fim} | status: {reserva.status}"
         )

@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": 1,
+    "usuario_id": 2,
+    "laboratorio_id": 1,
+    "data_inicio": "2026-12-12T12:00:00",
+    "data_fim": "2026-12-12T13:00:00",
+    "status": "cancelada",
+    "aprovado_por_id": 1,
+    "data_solicitacao": "2026-07-14T11:48:11",
+    "motivo_rejeicao": null
+  },
+  {
+    "id": 2,
+    "usuario_id": 2,
+    "laboratorio_id": 1,
+    "data_inicio": "2026-12-12T12:00:00",
+    "data_fim": "2027-12-12T15:00:00",
+    "status": "rejeitada",
+    "aprovado_por_id": 1,
+    "data_solicitacao": "2026-07-14T11:52:36",
+    "motivo_rejeicao": "nunquinha"
+  },
+  {
+    "id": 3,
+    "usuario_id": 3,
+    "laboratorio_id": 1,
+    "data_inicio": "2026-12-12T18:30:00",
+    "data_fim": "2026-12-13T19:30:00",
+    "status": "aprovada",
+    "aprovado_por_id": 1,
+    "data_solicitacao": "2026-07-14T11:52:36",
+    "motivo_rejeicao": null
+  }
+]
