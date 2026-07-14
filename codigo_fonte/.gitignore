@@ -1,0 +1,38 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambiente virtual
+venv/
+env/
+.venv/
+ENV/
+
+# Distribuição / empacotamento
+build/
+dist/
+*.egg-info/
+
+# ===== Testes e cobertura =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== VS Code =====
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+
+# ===== Sistema Operacional =====
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+# ===== Dados do projeto =====
+# Descomente a linha abaixo se NÃO quiserem versionar os dados de teste
+# data/*.json
