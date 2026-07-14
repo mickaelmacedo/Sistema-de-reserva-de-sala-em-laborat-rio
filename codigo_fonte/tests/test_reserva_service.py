@@ -90,7 +90,7 @@ class TestSolicitarAgendamento:
 
         assert reserva.id == 1
         assert reserva.status == "pendente"
-        assert reserva.professor == professor
+        assert reserva.usuario == professor
 
     def test_aluno_nao_pode_solicitar(self, service, aluno, laboratorio, amanha_14h):
         fim = amanha_14h + timedelta(hours=1)
